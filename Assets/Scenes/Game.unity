@@ -934,7 +934,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 7ab88ef62b8804329b910d3094e3ad45, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1071,7 +1071,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 8
   spriteIdle: {fileID: 21300000, guid: 0399d242613084b19805b3584cc6c361, type: 3}
   spriteJump: {fileID: 21300000, guid: 16fc6169c098e4dc3a24cff305273959, type: 3}
   spriteChangeDelay: 0.1
