@@ -987,7 +987,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 99
-  m_Sprite: {fileID: 21300000, guid: 0399d242613084b19805b3584cc6c361, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcc973a6b09b24b2a8ebc702cea95d33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1007,8 +1007,8 @@ Transform:
   m_GameObject: {fileID: 759234551}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.12, y: -1.42, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.66, y: -0.84, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1049,7 +1049,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8, y: 0.8}
+    oldSize: {x: 0.77, y: 0.77}
     newSize: {x: 0.8, y: 0.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1071,15 +1071,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  spriteIdle: {fileID: 21300000, guid: 0399d242613084b19805b3584cc6c361, type: 3}
-  spriteJump: {fileID: 21300000, guid: 16fc6169c098e4dc3a24cff305273959, type: 3}
+  spriteIdle: {fileID: 21300000, guid: bcc973a6b09b24b2a8ebc702cea95d33, type: 3}
   spriteChangeDelay: 0.1
-  _spriteLastChange: 0
-  spritesWalk:
-  - {fileID: 21300000, guid: 174679319c6fc4c09a78f7a999d0b0c5, type: 3}
-  - {fileID: 21300000, guid: ccfcdc7c4ab8b407b997f529bea73911, type: 3}
-  - {fileID: 21300000, guid: 2b7824ec8442b4f158e3e3409e33a565, type: 3}
-  - {fileID: 21300000, guid: 69125bdfd51a646b78c42e126f37e923, type: 3}
+  spritesWalkHorizontal:
+  - {fileID: 21300000, guid: 36fb4389b5d844d32bed323f395eeb10, type: 3}
+  - {fileID: 21300000, guid: d41c52915449e42298cbcfae5b11c119, type: 3}
+  - {fileID: 21300000, guid: c158e471b450a4778a7db2d47f536ab3, type: 3}
+  - {fileID: 21300000, guid: bb4775842c8cc46f9bad103a0a8fb9ee, type: 3}
+  - {fileID: 21300000, guid: 0f23fd9ca6a6543bba65adefc26385c0, type: 3}
+  - {fileID: 21300000, guid: b35d171f6a1d247f88270fedc8b0c862, type: 3}
+  - {fileID: 21300000, guid: bcc973a6b09b24b2a8ebc702cea95d33, type: 3}
+  - {fileID: 21300000, guid: fedd796b8058649429b46a7d432e6c0e, type: 3}
+  spritesWalkUp:
+  - {fileID: 21300000, guid: bb337c62349fd4bbe9238c3d20ee1bbb, type: 3}
+  - {fileID: 21300000, guid: 5f190b72a08ea46648cb0cd25cd4fc05, type: 3}
+  - {fileID: 21300000, guid: 433aff8f7665a4b9bbaed0b529e1f856, type: 3}
+  - {fileID: 21300000, guid: 0d82c76c5530f4bfb8272de5b77d18a7, type: 3}
+  - {fileID: 21300000, guid: 5b32499c2e62e4ef3b3c973bc7d14bc3, type: 3}
+  - {fileID: 21300000, guid: 298bcd1259f554035ade684a0c94034c, type: 3}
+  - {fileID: 21300000, guid: 967905df69f2747948db6374f590ef11, type: 3}
+  - {fileID: 21300000, guid: f82d5d0ad68d54b80848d5997122de31, type: 3}
+  spritesWalkDown:
+  - {fileID: 21300000, guid: 7c03223225b0a470dbce99f722a4b2dd, type: 3}
+  - {fileID: 21300000, guid: 371c728b977d24efbbd852512cbafdfe, type: 3}
+  - {fileID: 21300000, guid: 166b9c2eb32f14b40b319282b576ee48, type: 3}
+  - {fileID: 21300000, guid: 621a7b170a7aa4d9290f46c1b9b5bbeb, type: 3}
+  - {fileID: 21300000, guid: 7cab1328f92e44adf842a5311393d4e2, type: 3}
+  - {fileID: 21300000, guid: e628a33c5c2904fa9a301a65f2c25547, type: 3}
+  - {fileID: 21300000, guid: 4df7f37db283f40c58242b45f1c199ac, type: 3}
+  - {fileID: 21300000, guid: 0d31162fd455946268387d745bdbcb78, type: 3}
 --- !u!1001 &760469462
 PrefabInstance:
   m_ObjectHideFlags: 0
