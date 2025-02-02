@@ -32,8 +32,13 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (scoreText != null)
         scoreText.text = "SCORE: " + score;
+
+        if (healthText != null)
         healthText.text = "HEALTH: " + health; 
+
+       
     }
 
     public void UpdateHealth(int amount)
