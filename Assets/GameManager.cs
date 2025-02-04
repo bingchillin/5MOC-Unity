@@ -19,30 +19,84 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public int score = 0;
-    public int health = 100;
+    public int body = 0;
+    public int healthSave = 100;
+    public int health = 50;
+    public int powerTime = 0;
+    public int key = 0;
+    public bool usePower = false;
+    
+  
 
-    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI bodyText;
     public TextMeshProUGUI healthText;
+    public TextMeshProUGUI powerTimeText;
+    public TextMeshProUGUI keyText;
 
-    public void UpdateScore(int amount)
+    void Start()
     {
-        score += amount;
+        powerTime = healthSave / 10; 
     }
 
-    void Update()
+    public void UpdateBody(int amount)
     {
-        if (scoreText != null)
-        scoreText.text = "SCORE: " + score;
-
-        if (healthText != null)
-        healthText.text = "HEALTH: " + health; 
-
-       
+        body += amount; 
     }
 
     public void UpdateHealth(int amount)
     {
-        health += amount;
+       
+        if(health+amount >= healthSave){
+            health = healthSave;
+        }else {
+            health += amount;
+        }
+        
     }
+
+    public void UpdateHealthSave(int amount)
+    {
+        healthSave = amount;
+    }
+
+    public void UpdatePowerTime(int amount)
+    {
+        powerTime = amount;
+    }
+    public void UpdateUsePower(bool isUse)
+    {
+        usePower = isUse;
+    }
+    
+    public int GetPowerTime()
+    {
+        return powerTime;
+    }
+
+    public void Updatekey(int amount)
+    {
+        key += amount;
+    }
+
+    void Update()
+    {
+        if (bodyText != null)
+            bodyText.text = "BODY: " + body + "%";
+
+        if (healthText != null)
+            healthText.text = "HEALTH: " + health; 
+
+        if (powerTimeText != null)
+            powerTimeText.text = "POWER: " + powerTime; 
+
+        if (keyText != null)
+            keyText.text = "KEY: " + key; 
+
+        if (powerTime <= healthSave / 10 && usePower == false){
+            powerTime += (int)Time.deltaTime;
+        }
+       
+    }
+
+    
 }

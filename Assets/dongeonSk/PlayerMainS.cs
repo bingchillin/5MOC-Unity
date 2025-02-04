@@ -31,6 +31,10 @@ public class PlayerMainS : MonoBehaviour
     private Vector2 lastDirection;
     private Vector3 originalScale; 
 
+    // Variables pour le pouvoir
+    private bool isPowerActive = false;
+    private float powerTimer;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -43,12 +47,44 @@ public class PlayerMainS : MonoBehaviour
 
          originalScale = transform.localScale;
 
+        if (GameManager.Instance != null)
+        {
+            powerTimer = GameManager.Instance.GetPowerTime();
+        }
+        else
+        {
+            Debug.LogError("GameManager.Instance est NULL !");
+            powerTimer = 0f;
+        }
+
+
         SetSolidMode(true);
     }
 
     void Update()
     {
+       
+
         _spriteLastChange += Time.deltaTime;
+
+         Debug.DrawLine(transform.position, transform.position + Vector3.up * 0.2f, Color.red);
+
+        /*// Gestion du pouvoir
+        if (isPowerActive)
+        {
+            GameManager.Instance.UpdateUsePower(isPowerActive);
+            powerTimer -= Time.deltaTime;
+            GameManager.Instance.UpdatePowerTime((int)powerTimer);
+
+            if (powerTimer <= 0)
+            {
+                SetSolidMode(true);
+                isPowerActive = false;
+                GameManager.Instance.UpdateUsePower(isPowerActive);
+            }
+        }else {
+            GameManager.Instance.UpdateUsePower(isPowerActive);
+        }*/
 
        
         if (rb.velocity.magnitude > 0.2f)
@@ -102,6 +138,7 @@ public class PlayerMainS : MonoBehaviour
             gameObject.tag = "Solid";
             col.isTrigger = false; 
             transform.localScale = originalScale;
+            isPowerActive = false;
             Debug.Log("Mode SOLIDE activé !");
         }
         else
@@ -109,6 +146,7 @@ public class PlayerMainS : MonoBehaviour
             gameObject.tag = "PassThrough";
             col.isTrigger = true;
             transform.localScale = originalScale * 0.5f; 
+            isPowerActive = true;
             Debug.Log("Mode TRAVERSABLE activé !");
         }
 
