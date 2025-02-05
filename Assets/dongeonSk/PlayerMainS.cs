@@ -33,7 +33,9 @@ public class PlayerMainS : MonoBehaviour
 
     // Variables pour le pouvoir
     private bool isPowerActive = false;
-    private float powerTimer;
+    private int powerTime;
+    private float timer = 0f; 
+
 
     void Start()
     {
@@ -47,14 +49,14 @@ public class PlayerMainS : MonoBehaviour
 
          originalScale = transform.localScale;
 
-        if (GameManager.Instance != null)
+        if (GameManagerSk.Instance != null)
         {
-            powerTimer = GameManager.Instance.GetPowerTime();
+            powerTime = GameManagerSk.Instance.GetPowerTime();
         }
         else
         {
-            Debug.LogError("GameManager.Instance est NULL !");
-            powerTimer = 0f;
+            Debug.LogError("GameManagerSk.Instance est NULL !");
+            powerTime = 0;
         }
 
 
@@ -62,49 +64,55 @@ public class PlayerMainS : MonoBehaviour
     }
 
     void Update()
+{
+    timer += Time.deltaTime;
+    powerTime = GameManagerSk.Instance.GetPowerTime(); 
+
+    if (Input.GetKeyDown(KeyCode.P) && powerTime > 0)
     {
-       
+        isSolid = !isSolid;
+        SetSolidMode(isSolid);
+    }
 
-        _spriteLastChange += Time.deltaTime;
+    _spriteLastChange += Time.deltaTime;
 
-         Debug.DrawLine(transform.position, transform.position + Vector3.up * 0.2f, Color.red);
+   
+    if (powerTime <= 0 && isPowerActive) 
+    {
+        SetSolidMode(true); 
+    }
 
-        /*// Gestion du pouvoir
-        if (isPowerActive)
+  
+    if (isPowerActive)
+    {
+        if (timer >= 1f) // Toutes les secondes
         {
-            GameManager.Instance.UpdateUsePower(isPowerActive);
-            powerTimer -= Time.deltaTime;
-            GameManager.Instance.UpdatePowerTime((int)powerTimer);
+            powerTime--;
+            GameManagerSk.Instance.UpdatePowerTime(powerTime);
 
-            if (powerTimer <= 0)
+            // Vérification pour arrêter lorsque powerTime atteint 0
+            if (powerTime <= 0)
             {
-                SetSolidMode(true);
-                isPowerActive = false;
-                GameManager.Instance.UpdateUsePower(isPowerActive);
+                SetSolidMode(true); 
+                powerTime = 0; // Assurer qu'on ne dépasse pas zéro
             }
-        }else {
-            GameManager.Instance.UpdateUsePower(isPowerActive);
-        }*/
 
-       
-        if (rb.velocity.magnitude > 0.2f)
-        {
-            if (_spriteLastChange >= spriteChangeDelay)
-            {
-                _spriteLastChange = 0f;
-                _spriteIndex = (_spriteIndex + 1) % currentSprites.Length;
-                sprite.sprite = currentSprites[_spriteIndex];
-            }
-            lastDirection = rb.velocity.normalized;
-        }
-
-      
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            isSolid = !isSolid;
-            SetSolidMode(isSolid);
+            timer = 0f;
         }
     }
+
+ 
+    if (rb.velocity.magnitude > 0.2f)
+    {
+        if (_spriteLastChange >= spriteChangeDelay)
+        {
+            _spriteLastChange = 0f;
+            _spriteIndex = (_spriteIndex + 1) % currentSprites.Length;
+            sprite.sprite = currentSprites[_spriteIndex];
+        }
+    }
+}
+
 
     private void FixedUpdate()
     {
@@ -137,21 +145,36 @@ public class PlayerMainS : MonoBehaviour
         {
             gameObject.tag = "Solid";
             col.isTrigger = false; 
-            transform.localScale = originalScale;
             isPowerActive = false;
+            isSolid = true;
+            GameManagerSk.Instance.UpdateUsePower(false);
+
+           
+            currentSprites = spritesNormalWalkHorizontal;
+            _spriteIndex = 0;
+            sprite.sprite = currentSprites[_spriteIndex]; 
+
             Debug.Log("Mode SOLIDE activé !");
+            transform.localScale = originalScale;
         }
         else
         {
+            if (powerTime <= 0) return; 
+
             gameObject.tag = "PassThrough";
             col.isTrigger = true;
-            transform.localScale = originalScale * 0.5f; 
             isPowerActive = true;
-            Debug.Log("Mode TRAVERSABLE activé !");
-        }
+            isSolid = false;
+            GameManagerSk.Instance.UpdateUsePower(true);
 
-        currentSprites = solid ? spritesNormalWalkHorizontal : spritesGhostWalkHorizontal;
-        _spriteIndex = 0; 
-        sprite.sprite = currentSprites[_spriteIndex]; 
+            currentSprites = spritesGhostWalkHorizontal;
+            _spriteIndex = 0;
+            sprite.sprite = currentSprites[_spriteIndex]; 
+
+            Debug.Log("Mode TRAVERSABLE activé !");
+            transform.localScale = originalScale * 0.5f;
+        }
     }
+
+
 }

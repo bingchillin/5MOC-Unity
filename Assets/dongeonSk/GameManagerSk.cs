@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class GameManagerSk : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static GameManagerSk Instance { get; private set; }
 
     private void Awake()
     {
@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
         timer += Time.deltaTime;
         
         // Régénération du pouvoir seulement si le pouvoir n'est PAS utilisé
-        if (timer >= 3f && !usePower)
+        if (timer >= 2f && !usePower)
         {
             if (powerTime < healthSave / 10) 
             {
