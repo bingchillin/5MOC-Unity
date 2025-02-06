@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class GameManagerSk : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static GameManagerSk Instance { get; private set; }
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     public int body = 0;
     public int healthSave = 100;
-    public int health = 50;
+    public int health = 100;
     public int powerTime = 0;
     public int key = 0;
     public bool usePower = false;
@@ -36,18 +36,16 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        powerTime = healthSave / 10; 
+        powerTime = healthSave / 20; 
+
+        // Mise à jour immédiate des textes
+        if (healthText != null)
+            healthText.text = "PV: " + health;
     }
 
     public void UpdateBody(int amount)
     {
-        if (scoreText != null)
-            scoreText.text = "SCORE: " + score;
-
-        if (healthText != null)
-            healthText.text = "HEALTH: " + health; 
-
-        body += amount;
+        body += amount; 
     }
 
     public void UpdateHealth(int amount)
@@ -55,6 +53,8 @@ public class GameManager : MonoBehaviour
        
         if(health+amount >= healthSave){
             health = healthSave;
+        }else if(health<=0){
+            health = 0;
         }else {
             health += amount;
         }
@@ -88,11 +88,12 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        Debug.Log("Valeur actuelle de health: " + health);
         
         // Régénération du pouvoir seulement si le pouvoir n'est PAS utilisé
-        if (timer >= 3f && !usePower)
+        if (timer >= 2f && !usePower)
         {
-            if (powerTime < healthSave / 10) 
+            if (powerTime < healthSave / 20) 
             {
                 powerTime++;  // Incrémente le temps de pouvoir
             }
@@ -102,8 +103,24 @@ public class GameManager : MonoBehaviour
         if (bodyText != null)
             bodyText.text = "BODY: " + body + "%";
 
-        if (healthText != null)
-            healthText.text = "HEALTH: " + health; 
+        if (healthText != null){
+            
+            healthText.text = "PV: " + health + "/" + healthSave; 
+
+            if (health <= 20)
+            {
+                healthText.color = Color.red; 
+            }else if(health <= 40){
+                 healthText.color = new Color(1f, 0.5f, 0f);; 
+            }
+            else
+            {
+                healthText.color = Color.white; 
+            }
+        }
+            
+
+        
 
         if (powerTimeText != null)
             powerTimeText.text = "P: " + powerTime; 

@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gem : MonoBehaviour
+public class GemGelOs : MonoBehaviour
 {
     public int points = 10;
     private Transform playerTransform; // position du joueur
-    public float pickupRadius = 0.5f; // Distance pour ramasser la gemme
+    public float pickupRadius = 1f; // Distance pour ramasser la gemme
 
     private void Start()
     {
@@ -42,7 +42,7 @@ public class Gem : MonoBehaviour
             
             if (distance <= pickupRadius)
             {
-                GameManager.Instance.UpdateBody(points);
+                GameManagerSk.Instance.UpdateBody(points);
                 Destroy(gameObject);
             }
         }
