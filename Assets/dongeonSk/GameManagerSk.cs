@@ -103,8 +103,24 @@ public class GameManagerSk : MonoBehaviour
         if (bodyText != null)
             bodyText.text = "BODY: " + body + "%";
 
-        if (healthText != null)
+        if (healthText != null){
+            
             healthText.text = "PV: " + health + "/" + healthSave; 
+
+            if (health <= 20)
+            {
+                healthText.color = Color.red; 
+            }else if(health <= 40){
+                 healthText.color = new Color(1f, 0.5f, 0f);; 
+            }
+            else
+            {
+                healthText.color = Color.white; 
+            }
+        }
+            
+
+        
 
         if (powerTimeText != null)
             powerTimeText.text = "P: " + powerTime; 
