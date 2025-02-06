@@ -21,7 +21,7 @@ public class GameManagerSk : MonoBehaviour
 
     public int body = 0;
     public int healthSave = 100;
-    public int health = 50;
+    public int health = 100;
     public int powerTime = 0;
     public int key = 0;
     public bool usePower = false;
@@ -36,7 +36,11 @@ public class GameManagerSk : MonoBehaviour
 
     void Start()
     {
-        powerTime = healthSave / 10; 
+        powerTime = healthSave / 20; 
+
+        // Mise à jour immédiate des textes
+        if (healthText != null)
+            healthText.text = "PV: " + health;
     }
 
     public void UpdateBody(int amount)
@@ -49,6 +53,8 @@ public class GameManagerSk : MonoBehaviour
        
         if(health+amount >= healthSave){
             health = healthSave;
+        }else if(health<=0){
+            health = 0;
         }else {
             health += amount;
         }
@@ -82,11 +88,12 @@ public class GameManagerSk : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        Debug.Log("Valeur actuelle de health: " + health);
         
         // Régénération du pouvoir seulement si le pouvoir n'est PAS utilisé
         if (timer >= 2f && !usePower)
         {
-            if (powerTime < healthSave / 10) 
+            if (powerTime < healthSave / 20) 
             {
                 powerTime++;  // Incrémente le temps de pouvoir
             }
@@ -97,7 +104,7 @@ public class GameManagerSk : MonoBehaviour
             bodyText.text = "BODY: " + body + "%";
 
         if (healthText != null)
-            healthText.text = "HEALTH: " + health; 
+            healthText.text = "PV: " + health + "/" + healthSave; 
 
         if (powerTimeText != null)
             powerTimeText.text = "P: " + powerTime; 
