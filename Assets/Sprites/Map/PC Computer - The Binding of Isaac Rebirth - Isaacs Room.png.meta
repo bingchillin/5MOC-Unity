@@ -1,0 +1,4734 @@
+fileFormatVersion: 2
+guid: 2e0e6151d8d18694890900000e8c7e3a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 52
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755f43232b0008b4784780bbeb63c09f
+      internalID: 95944740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de49daf545f5ee64da59d2526e4d9f86
+      internalID: -460929064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffe4e3abb1bbec448cbd2d38d5e5378
+      internalID: -1388086539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ace0166d8b0e419712738ab3b7ea0
+      internalID: 1309656460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad20d36fe2593ed4599f2c167ef02042
+      internalID: 1683388232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7662625a72bbf0d4088635542728d047
+      internalID: 1895843390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b70efb15b1c2b940be30f13f9256fd0
+      internalID: -1737266032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de6a9a2961e7144d823630cf5f9a91b
+      internalID: -1403710828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_8
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b8b070e8fcb2f448a285f6e5626585
+      internalID: 379047515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_9
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1085
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5646fe5dfa23084fadb375527ca5d38
+      internalID: -1403381102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5578a38a9eca34989f8b967c843e7b
+      internalID: -1732579203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dce2faedd410eb45849fe22bc2eb3ae
+      internalID: 815237483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030b85f5b795f9d4d891e8cbbd070761
+      internalID: 1925820541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b549ba7d0f9ae0743a98df4f6198676e
+      internalID: -1814881597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea893d5339c217479b2f22e208b93cc
+      internalID: 226994532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49628bb9227ef444acac30198d62658
+      internalID: -1410843274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283507c21d7321d448b18aa07fc75dd5
+      internalID: -200512881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538e4098ecbaa434ab33a112c75004ec
+      internalID: 1149334058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_18
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174f011ef5b6cc04397e5466a4f0c047
+      internalID: 1835468024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1033
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c44a6325827e4c47978948db3eb5449
+      internalID: -1594484631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66d29eb6894ad043b40e2d00faca833
+      internalID: 568978726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef2c2200dd5c2468d962c9c1802a81
+      internalID: 635386169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284aa27035f09cb4cb534727fa38eed0
+      internalID: -289720188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe7060b9f4e2f24cbac2c7e15d76ed5
+      internalID: -1614205363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_24
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d8c290cfcd4b34fb7b44035d01ab45
+      internalID: -1784635958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb10d46b6141a94eba3e6cfa683849c
+      internalID: 1646684835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_26
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d137f4a2f76554e8b08b0b2c8d614e
+      internalID: -543298824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_27
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e7d0ecd8c841419d59da30a8a77c1
+      internalID: 971688318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23d6a84828c02943a3264c02eea29e2
+      internalID: 1214109521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_29
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 981
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9bdfeb97381f24abdc42d90c79bd20
+      internalID: -24778619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc22a0fcf68eaa40975725e86cdad61
+      internalID: -1519201065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b61ba5418fdc3b47a307c7842f1ac36
+      internalID: 584303467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a76aa3dd6213834cb521bfacdf56da4
+      internalID: -83373614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_33
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2494a00e9fff54cb2fcf30af9f4a68
+      internalID: -157213312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_34
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e7563a0c44ad408d2ab6c9c2c390d
+      internalID: 881421389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_35
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66ff7806ceac94c92fa5d03a9d0a75
+      internalID: 1732432026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_36
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8ebb36bbacead4ab4df2f8abb7b9c9
+      internalID: -847687329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2da5980e08a9c419d8a226ec41431d
+      internalID: 788295199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_38
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2537631b93c924449b6a90626691fab2
+      internalID: -159798720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_39
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 929
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d588a901df5b47429a9f3877edaeb27
+      internalID: 987088060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea907b222d87fa41b39853d2d9ede6b
+      internalID: -207253427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_41
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768e04f7700dd934ea23952679c50797
+      internalID: 525401638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_42
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d0171dc2ddd74459a9ee21f984e526
+      internalID: -1259208636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4834f6b711090c14399fb16289f91fbf
+      internalID: -592262315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27454714495421b4a9973c3d72d15736
+      internalID: 1288102518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_45
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65e5a99e27c79048b3c67e1f9f53d2a
+      internalID: 1915385313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_46
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54838f0964b4be046a94d6dfd6d59c91
+      internalID: -971727474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0169f7b08ad1949bf9d9a3d6498d7a
+      internalID: -179176448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_48
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0d14693c55f8a4ebc28db9f15708b7
+      internalID: 1599266796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_49
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 877
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d3f3a7f14855446be6af01576633c9
+      internalID: 1789182194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1098d71f123214587832af0c37cc72
+      internalID: -1346865079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_51
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627599eb96d9d1e4d864a31f2b7d18d7
+      internalID: -1484018340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_52
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d9562e9263ba747891565de64e6a1a
+      internalID: 1138900441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e16de4d77e5ba4aa08b9075cd9f7e9
+      internalID: 1869351546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_54
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9642128851f386549bb262e5a477c26f
+      internalID: 1522390109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_55
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a95526f8f8c6cf409d3c91152d457ec
+      internalID: -1775824669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_56
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccbe00956fff2640aef704bf8cbfd88
+      internalID: 1419705291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9329be3124a3a5d4d81ba5ebe71b6fe1
+      internalID: -1364702440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_58
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a977a3b9f8eac5409a0d21b2c124f51
+      internalID: 984083235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 825
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb8d1432309886458e26309799cd30e
+      internalID: 1207529529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22af1ea8222bc1f449fee990b8ba95d0
+      internalID: 544676466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9412bc0900ab3004eaa16cfe67c8fe7d
+      internalID: -1923945402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76570752cf8fbdb40bb25557fa16e4fb
+      internalID: 287126306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51897c7cbfb0e143b8e595e7a9f3deb
+      internalID: 387840306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4d7180271c80e43a1b9c51a6b8bbe1
+      internalID: -243717960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_65
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94846c5ea329d5748944c8884ccd218b
+      internalID: -640530965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_66
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa37982b800a104882f29868cad60c2
+      internalID: 873892955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025d190382f6f4d47b88a6c876ada689
+      internalID: -1473707342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_68
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cf6c1a34f242547acb36f11c97594a
+      internalID: -260213795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_69
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 773
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a7c03882d0ace48905468c89d1aba5
+      internalID: 1830668923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a82abe63999644096b77dd342d2e4b
+      internalID: 2088219379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_71
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7929f3f10e78ee94c97f182fadd49b28
+      internalID: 1196325959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_72
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7a90638f1ce0c4b8f269f403789b67
+      internalID: 2104198348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_73
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67daa97d81d7a74da9fbfc2211328f3
+      internalID: -1644467156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_74
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e00943f511c544f80b94ed4ff9f805
+      internalID: -152185266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_75
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2aa98c48597c841a0da176c17b0d6f
+      internalID: -1306073883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_76
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c24be4cca06d8a4fa4305373273c720
+      internalID: -94348858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_77
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fb5ad4ee9e8254496bb059849f7992
+      internalID: 60822528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_78
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e44c594ef2cf3d42a7bcb852b122724
+      internalID: -603276960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_79
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 721
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edeecac4424a1a4691cc507739faeb2
+      internalID: -1077895711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d172ddee9d522d246aabc1dfad32592a
+      internalID: 1316657000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_81
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa77fdb2f0d9e446b065fe6566782be
+      internalID: 402614120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_82
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555317e0a6b6c1b44829d9ced9b07df4
+      internalID: 1109226023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_83
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb631a43f2054b478e6e38a3445b2b2
+      internalID: 155069283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_84
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deffd749987f1aa4fac35cd437a1e0fd
+      internalID: -488342647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_85
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1509155d4fd75d246940a8e929441093
+      internalID: -343561312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_86
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe69191c88bd6c4ca987781e03f75a3
+      internalID: 629128425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_87
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444bff7f7b88a2347a0433c3e8e51b1f
+      internalID: 2134984846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_88
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b78f87f5a9a4840972ffc16a737bd6
+      internalID: 626459251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_89
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 669
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11597be0a89212e4b90be2d00535f9d3
+      internalID: -285639810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_90
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ffff9a7b26b3443a0c99e061186a54
+      internalID: 1764016707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_91
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae86edd662e0744a2ca209994ab902
+      internalID: -234520156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_92
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208662c946a622444ba666019a4e36c3
+      internalID: -1445091347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_93
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199e903ddedf6a34e911ad281cdfe6a4
+      internalID: -899168869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_94
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b3730388e46d40a7e3ef715456844
+      internalID: -1611869104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_95
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3eee9738344544ea5504c0bbc48f73
+      internalID: 165017322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_96
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c64965983f774b408454684fd6a632b
+      internalID: 1179145033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_97
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5d03291092b4f4e90d14f70d91e797
+      internalID: 1598027069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_98
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3161076e00b554c87557858df150ca
+      internalID: 1171076896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_99
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 617
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2164e5a42d344e44a53429d3e2dfe10
+      internalID: -1509891075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_100
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7725c6f9645714a45a3add07d08a9ee3
+      internalID: 420745066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_101
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca494abc718239d44bc2269cd8b3f804
+      internalID: -1611431117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_102
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9144c671dcd3ecf4b9a41a855ae75410
+      internalID: 1399150842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_103
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0036a32ca7db94aa2ea1dd9b565a31
+      internalID: 2005415834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_104
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fc4eb4b48efbd4081ae8a84de0a156
+      internalID: -73397036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_105
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e054bc38e89734442aa421cbd5038ed2
+      internalID: -681970541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_106
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f970aa674b03a1e4490b078ecd4b9497
+      internalID: -1477317243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_107
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b668c5fa91ceca4a93211931e9fff81
+      internalID: -194892104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_108
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34300ed63f01944eb7a8d8f53fb6178
+      internalID: 552766059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_109
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 565
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce7df14f97ea404c8173740cca7e4f8
+      internalID: 657518131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_110
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f663e4f5f15d764cabe13de10c0e318
+      internalID: 1982991474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_111
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c6b2590ef85b142b6476e7aeebd1f7
+      internalID: 407940777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_112
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e129e02a8a8cf3644a3fe6e0f1fa0e90
+      internalID: -1196412435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_113
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8525fa4ebb4c04bb84a040c9dcd25e
+      internalID: 840539782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_114
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9704f66ab2a1b204cac5a45bf4284cd2
+      internalID: -2131806209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_115
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b9d0fee1e99e945b3378cb38abb6e6
+      internalID: -56968605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_116
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b277d2602d4163446bbda01922d88886
+      internalID: -95274741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_117
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7b14cf1a41411438a078b17a18d0d2
+      internalID: -1949720611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_118
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03072a40b88f692408714688f34d49be
+      internalID: 1292381626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_119
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 513
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71db2a5ecfaa4c4498d03acd9bffc366
+      internalID: 792895620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_120
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9ec2b48706d374b97cd0f1878be8c0
+      internalID: 1074748097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_121
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a044f8efc544fbf4a9b52707ba2cb40d
+      internalID: 1665402898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_122
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9f3f20c1ee6b44fa352192ee54200c
+      internalID: -728485021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_123
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535046ef6abc53e42a2ca73f6f8e4ff6
+      internalID: 1223662335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_124
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4403b76eaec5649a43a8c253971a12
+      internalID: -783942610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_125
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d70d84cda39d499ccfa2a124e3523
+      internalID: 277179502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_126
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be63f0850415b40a41bb5b5cc7ca7c
+      internalID: 417492164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_127
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad3b4443db97014fb2845e66f76e8a7
+      internalID: 1507081323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_128
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430dced93653274084f7af10e5881a2
+      internalID: 1486265229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_129
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 461
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a54cdbd104b044408aef7b9f8df0f6c
+      internalID: -1345684185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_130
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6310b8c6817d74ba71e08984974da0
+      internalID: 2103614946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_131
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b38732069d1aa48b6232658a5d146b
+      internalID: -126959286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_132
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcc12f10f49ee14b969002dceaaea2a
+      internalID: -1616116190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_133
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c43df824d931e4ab91221c47dc0d4d
+      internalID: 1232077435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_134
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c6f8ae25284134ab1b307d87de898f
+      internalID: 2037354032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_135
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87a91c9c91743c4293e4c34c2ff38b4
+      internalID: -1647067248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_136
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1913399fd3b4e2946bd6328c28fbce90
+      internalID: 1887964213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_137
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41295a51d5ced724991d3fa3094f6fe9
+      internalID: 380334816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_138
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe50376264901f46ba925add16f545b
+      internalID: -1201289205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_139
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 409
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f52347b6ec8fa43a653f8609f4030d
+      internalID: -851923276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_140
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d027c07ad69fc4491ed56eedba0991
+      internalID: 1514731773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_141
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc19ec902e543bb468431cfa2111e32d
+      internalID: 2065379900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_142
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2021dfd2a95de488386d65313f1991
+      internalID: 1657352803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_143
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eb11851a835704cae5701bea37a401
+      internalID: 1178545356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_144
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c280d31570635194cb8a39c8507fd7b1
+      internalID: -649555032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_145
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fea281005407a54f826d9d5977ee0fe
+      internalID: 1709995949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_146
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d636bcba7f7dc846a54fdc4c44e5cb0
+      internalID: 1960741547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_147
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1bdee1154d1894982d76fa611aa2d2
+      internalID: 395813645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_148
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd859781500c25b4684fa05e267da70f
+      internalID: 1084427508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_149
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 357
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d3469d704017145b5c81be45f8be31
+      internalID: -1756849787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_150
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947c2053632520f44936a71f4f2308a6
+      internalID: 912367414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_151
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de2da02332c7d54aa9db8d2c22da693
+      internalID: -1772360546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_152
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26cf52f8acb3b749ad42c42145527d0
+      internalID: -1788279815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_153
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b45161bb0e7a74789d20a2011b9d41
+      internalID: 2068410930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_154
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fc370910a2a83428056d59300f1dbe
+      internalID: 1407054573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_155
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db3fabb9d88fc48b2876dc86155485
+      internalID: 59194226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_156
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eecaacaccbc0e94090580d24e09c78d
+      internalID: 1455632234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_157
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b4d18b7500e4542bd7c61c8a5083a3
+      internalID: 66256166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_158
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b125e358d2efe340a36eac2af96d44d
+      internalID: -958096526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_159
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 305
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a06b53272091ab4180d5e817242a633
+      internalID: -461329684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_160
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ef4e993586e9841a65a3bb67787250
+      internalID: 1405287623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_161
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f10e5714a07a42a3cdc37bd5cbad0
+      internalID: 2040082166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_162
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b758def8548ad429e07dee64a8b393
+      internalID: -529704818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_163
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0ab4a095dd2dd468cc8178ef56765e
+      internalID: -2121864976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_164
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149ba81863d86e447b54c40fb466372b
+      internalID: 888666784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_165
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e636210c39c214aaad1bb45da02a57
+      internalID: -475738294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_166
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78462d66b252f2f47b2adcc73afdf515
+      internalID: 1386472417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_167
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece163a478dd5ab4a83c1ae31c447c9c
+      internalID: -1787064961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_168
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b180fada27a9150409dd1d188279f714
+      internalID: -47936491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_169
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 253
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ec67080fab1d0489dadab55f95c836
+      internalID: 1038708778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_170
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a172924cc6093c4baa11a837c9d57cb
+      internalID: 883278715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_171
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e427f5042bf183a4eae778fcec8712a0
+      internalID: -1396471872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_172
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bac2a90379e4441adf0f760d76d297
+      internalID: 408002942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_173
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eac0a1c09d7d5542ba2725becf71e6a
+      internalID: 835983610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_174
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be4035c3b8b55f488bce2d8c73e0cba
+      internalID: 1097816071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_175
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e583fbcc00d9241b346f0e618ae754
+      internalID: -345597809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_176
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3b28a834441b34897edf3fe8b70bf5
+      internalID: 1700438496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_177
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b63ad665dc5b4248ab3f40643945618
+      internalID: 1239301324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_178
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98c7a3be0c03464b89b5a113a3ffdf5
+      internalID: 2116639095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_179
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 201
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a6e6c1435e46046905a2263d7407c0
+      internalID: 1622640556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_180
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f95957ab7034a4d9c4be81b99d73b1
+      internalID: 1412863787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_181
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5144bdb74ff94eb5287f5942686f5
+      internalID: -1011511248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_182
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f265c9301d699409b89b7ec95ed36a
+      internalID: -2042079485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_183
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7f72322facf547863904240d34734
+      internalID: -254673468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_184
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e212a80ec94acae449165ba0f83e78d9
+      internalID: 2009809631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_185
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768e9e8ce87c11647b1e50db3af01bf5
+      internalID: 48796919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_186
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06095aca40eacd74ba31b05578dba715
+      internalID: 652674088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_187
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bc64c0801e5ca459a5e08d28132e6d
+      internalID: 1123233676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_188
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a563eb6da2d1f849b494b3da1f7d983
+      internalID: -629686535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_189
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 149
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002e9db43b3542a4dad3da8e2ea447e1
+      internalID: 1931861570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_190
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e59f9cd993af74795c0f9f4c681168
+      internalID: 459706759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_191
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a99b5839642e474ab46acfc4902dceb
+      internalID: -1037639275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_192
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ce443696c9c3048a96908569749b76
+      internalID: -388355805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_193
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f35790cdc4951489516d701dd7dd4b
+      internalID: 518459879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_194
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d70febea184984ea7463f69b4b7563
+      internalID: -1164889699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_195
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f4984f3fb17c8479a66b10ff3a6c40
+      internalID: -675113217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_196
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6975076daf6ee4b870580d81f74c16
+      internalID: 658600862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_197
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4892bbc3a0fd584789104548236883e
+      internalID: 1237051932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_198
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a2cf5014f9af042816ba2ba68a2e2c
+      internalID: -1306539182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_199
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 97
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3606b1a0a7d24cbb1f20c90b028c0
+      internalID: 329488053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_200
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9440963ad11473e45ba62dbe9635e8e1
+      internalID: 1204408296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_201
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bcd44ad5e75c44fb640c9a6f0636e5
+      internalID: -303197814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_202
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca3ff84d5a476f47bb191b035a1edaa
+      internalID: 148431084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_203
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f6fd883437e964a9820b3d72239ada
+      internalID: -1281892076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_204
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b75adad2586f4ab59c94ca49af6ec
+      internalID: -1767617919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_205
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c7b94bda93c014e90f52f1c440a341
+      internalID: -2012019030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_206
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37d4c04874cd2e4fbda973256735408
+      internalID: -1586291123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_207
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3a1ae9ddee1954e8c06e62b20acec6
+      internalID: 1869311304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_208
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed5dbe8757cbbd4086a40ab0f4c98bf
+      internalID: -24871072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Isaacs Room_209
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 45
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee38d0cfc019ceb4eb0851b41b5d197f
+      internalID: -756759258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_0: 95944740
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_1: -460929064
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_10: -1732579203
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_100: 420745066
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_101: -1611431117
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_102: 1399150842
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_103: 2005415834
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_104: -73397036
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_105: -681970541
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_106: -1477317243
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_107: -194892104
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_108: 552766059
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_109: 657518131
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_11: 815237483
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_110: 1982991474
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_111: 407940777
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_112: -1196412435
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_113: 840539782
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_114: -2131806209
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_115: -56968605
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_116: -95274741
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_117: -1949720611
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_118: 1292381626
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_119: 792895620
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_12: 1925820541
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_120: 1074748097
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_121: 1665402898
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_122: -728485021
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_123: 1223662335
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_124: -783942610
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_125: 277179502
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_126: 417492164
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_127: 1507081323
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_128: 1486265229
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_129: -1345684185
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_13: -1814881597
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_130: 2103614946
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_131: -126959286
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_132: -1616116190
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_133: 1232077435
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_134: 2037354032
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_135: -1647067248
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_136: 1887964213
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_137: 380334816
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_138: -1201289205
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_139: -851923276
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_14: 226994532
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_140: 1514731773
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_141: 2065379900
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_142: 1657352803
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_143: 1178545356
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_144: -649555032
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_145: 1709995949
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_146: 1960741547
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_147: 395813645
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_148: 1084427508
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_149: -1756849787
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_15: -1410843274
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_150: 912367414
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_151: -1772360546
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_152: -1788279815
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_153: 2068410930
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_154: 1407054573
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_155: 59194226
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_156: 1455632234
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_157: 66256166
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_158: -958096526
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_159: -461329684
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_16: -200512881
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_160: 1405287623
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_161: 2040082166
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_162: -529704818
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_163: -2121864976
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_164: 888666784
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_165: -475738294
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_166: 1386472417
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_167: -1787064961
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_168: -47936491
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_169: 1038708778
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_17: 1149334058
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_170: 883278715
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_171: -1396471872
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_172: 408002942
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_173: 835983610
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_174: 1097816071
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_175: -345597809
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_176: 1700438496
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_177: 1239301324
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_178: 2116639095
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_179: 1622640556
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_18: 1835468024
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_180: 1412863787
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_181: -1011511248
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_182: -2042079485
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_183: -254673468
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_184: 2009809631
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_185: 48796919
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_186: 652674088
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_187: 1123233676
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_188: -629686535
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_189: 1931861570
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_19: -1594484631
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_190: 459706759
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_191: -1037639275
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_192: -388355805
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_193: 518459879
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_194: -1164889699
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_195: -675113217
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_196: 658600862
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_197: 1237051932
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_198: -1306539182
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_199: 329488053
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_2: -1388086539
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_20: 568978726
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_200: 1204408296
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_201: -303197814
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_202: 148431084
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_203: -1281892076
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_204: -1767617919
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_205: -2012019030
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_206: -1586291123
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_207: 1869311304
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_208: -24871072
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_209: -756759258
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_21: 635386169
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_22: -289720188
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_23: -1614205363
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_24: -1784635958
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_25: 1646684835
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_26: -543298824
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_27: 971688318
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_28: 1214109521
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_29: -24778619
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_3: 1309656460
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_30: -1519201065
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_31: 584303467
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_32: -83373614
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_33: -157213312
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_34: 881421389
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_35: 1732432026
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_36: -847687329
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_37: 788295199
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_38: -159798720
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_39: 987088060
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_4: 1683388232
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_40: -207253427
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_41: 525401638
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_42: -1259208636
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_43: -592262315
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_44: 1288102518
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_45: 1915385313
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_46: -971727474
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_47: -179176448
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_48: 1599266796
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_49: 1789182194
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_5: 1895843390
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_50: -1346865079
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_51: -1484018340
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_52: 1138900441
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_53: 1869351546
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_54: 1522390109
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_55: -1775824669
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_56: 1419705291
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_57: -1364702440
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_58: 984083235
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_59: 1207529529
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_6: -1737266032
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_60: 544676466
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_61: -1923945402
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_62: 287126306
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_63: 387840306
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_64: -243717960
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_65: -640530965
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_66: 873892955
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_67: -1473707342
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_68: -260213795
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_69: 1830668923
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_7: -1403710828
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_70: 2088219379
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_71: 1196325959
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_72: 2104198348
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_73: -1644467156
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_74: -152185266
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_75: -1306073883
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_76: -94348858
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_77: 60822528
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_78: -603276960
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_79: -1077895711
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_8: 379047515
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_80: 1316657000
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_81: 402614120
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_82: 1109226023
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_83: 155069283
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_84: -488342647
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_85: -343561312
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_86: 629128425
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_87: 2134984846
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_88: 626459251
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_89: -285639810
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_9: -1403381102
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_90: 1764016707
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_91: -234520156
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_92: -1445091347
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_93: -899168869
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_94: -1611869104
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_95: 165017322
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_96: 1179145033
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_97: 1598027069
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_98: 1171076896
+      PC Computer - The Binding of Isaac Rebirth - Isaacs Room_99: -1509891075
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
