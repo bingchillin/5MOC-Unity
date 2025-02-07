@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+using UnityEngine.SceneManagement;
+
 public class GameManagerSk : MonoBehaviour
 {
     public static GameManagerSk Instance { get; private set; }
@@ -34,6 +36,8 @@ public class GameManagerSk : MonoBehaviour
     public TextMeshProUGUI powerTimeText;
     public TextMeshProUGUI keyText;
 
+    public GameObject bossRoomObject; 
+
     void Start()
     {
         powerTime = healthSave / 20; 
@@ -41,11 +45,28 @@ public class GameManagerSk : MonoBehaviour
         // Mise à jour immédiate des textes
         if (healthText != null)
             healthText.text = "PV: " + health;
+
+        if (body <= 10)
+        {
+            bossRoomObject.SetActive(false);  // Affiche l'objet lorsque body > 10
+            
+        }
     }
 
     public void UpdateBody(int amount)
     {
-        body += amount; 
+        body += amount;
+     
+        if ( body == 10)
+        {
+            
+            bossRoomObject.SetActive(true); 
+        } 
+    }
+
+    public int GetBody()
+    {
+        return body;
     }
 
     public void UpdateHealth(int amount)
@@ -64,6 +85,10 @@ public class GameManagerSk : MonoBehaviour
     public void UpdateHealthSave(int amount)
     {
         healthSave = amount;
+    }
+    public void UpdateHealthSaveAdd(int amount)
+    {
+        healthSave += amount;
     }
 
     public void UpdatePowerTime(int amount)
@@ -90,14 +115,20 @@ public class GameManagerSk : MonoBehaviour
         timer += Time.deltaTime;
         Debug.Log("Valeur actuelle de health: " + health);
         
-        // Régénération du pouvoir seulement si le pouvoir n'est PAS utilisé
+      
         if (timer >= 2f && !usePower)
         {
             if (powerTime < healthSave / 20) 
             {
-                powerTime++;  // Incrémente le temps de pouvoir
+                powerTime++; 
             }
-            timer = 0f; // Réinitialise le timer
+            timer = 0f;
+        }
+
+     
+        if (health <= 0)
+        {
+            ReloadScene(); 
         }
 
         if (bodyText != null)
@@ -119,18 +150,21 @@ public class GameManagerSk : MonoBehaviour
             }
         }
             
-
-        
-
         if (powerTimeText != null)
             powerTimeText.text = "P: " + powerTime; 
 
         if (keyText != null)
             keyText.text = "KEY: " + key; 
-
+            
+        
         
        
     }
 
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+    }
+     
     
 }

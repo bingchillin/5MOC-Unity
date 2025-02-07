@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadingScreen : MonoBehaviour
 {
-    public string nextSceneName = "Menu";
+    public string nextSceneName = "MainMenu";
 
     void Start()
     {

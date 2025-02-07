@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GemGelOs : MonoBehaviour
+public class Pv : MonoBehaviour
 {
     public int points = 10;
     private Transform playerTransform; // position du joueur
@@ -42,7 +42,7 @@ public class GemGelOs : MonoBehaviour
             
             if (distance <= pickupRadius)
             {
-                GameManagerSk.Instance.UpdateBody(points);
+                GameManagerSk.Instance.UpdateHealth(points);
                 Destroy(gameObject);
             }
         }
