@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DungeonSk.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: c1c255bc5a4834639bb388adca8f37be
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9df6b37da7ade469b950311dec09d22d
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f0559176fb81741aa99ed66a1fbb6801, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1ab8ab57d469249678fe77f14925dc3e, type: 2}

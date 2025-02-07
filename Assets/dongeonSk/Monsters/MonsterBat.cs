@@ -15,7 +15,7 @@ public class MonsterBat : MonoBehaviour
     private float timer;
 
     [Header("Vie du Monstre")]
-    public int health = 100; 
+    public int health = 50; 
 
     private float solidDamageTimer = 0f;      
     private float passThroughDamageTimer = 0f; 
@@ -30,6 +30,9 @@ public class MonsterBat : MonoBehaviour
 
     private void Start()
     {
+        // Définir une vie aléatoire entre 50 et 300
+        health = Random.Range(50, 300); 
+
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         if (frames.Length > 0)
@@ -155,14 +158,15 @@ public class MonsterBat : MonoBehaviour
         else if (collider.CompareTag("PassThrough"))
         {
             passThroughDamageTimer += Time.deltaTime;
-            if (passThroughDamageTimer >= 0.7f) 
+            if (passThroughDamageTimer >= 0.3f) 
             {
                 health -= 20;
-                Debug.Log("Le monstre perd 20 PV toutes les 0.7s en contact avec un joueur PASS THROUGH.");
+                Debug.Log("Le monstre perd 20 PV toutes les 0.3s en contact avec un joueur PASS THROUGH.");
 
                 if (health <= 0)
                 {
                     Destroy(gameObject);
+                    GameManagerSk.Instance.UpdateHealthSaveAdd(10);
                     Debug.Log("Le monstre est détruit !");
                 }
 
