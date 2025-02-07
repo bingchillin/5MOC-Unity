@@ -41,13 +41,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdateBody(int amount)
     {
-        if (scoreText != null)
-            scoreText.text = "SCORE: " + score;
-
-        if (healthText != null)
-            healthText.text = "HEALTH: " + health; 
-
-        body += amount;
+        body += amount; 
     }
 
     public void UpdateHealth(int amount)
@@ -106,11 +100,15 @@ public class GameManager : MonoBehaviour
             healthText.text = "HEALTH: " + health; 
 
         if (powerTimeText != null)
+            powerTimeText.text = "POWER: " + powerTime; 
             powerTimeText.text = "P: " + powerTime; 
 
         if (keyText != null)
             keyText.text = "KEY: " + key; 
 
+        if (powerTime <= healthSave / 10 && usePower == false){
+            powerTime += (int)Time.deltaTime;
+        }
         
        
     }
