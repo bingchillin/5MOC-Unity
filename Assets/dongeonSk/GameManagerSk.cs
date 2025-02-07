@@ -46,7 +46,7 @@ public class GameManagerSk : MonoBehaviour
         if (healthText != null)
             healthText.text = "PV: " + health;
 
-        if (body <= 10)
+        if (body <= 100)
         {
             bossRoomObject.SetActive(false);  // Affiche l'objet lorsque body > 10
             
@@ -57,7 +57,7 @@ public class GameManagerSk : MonoBehaviour
     {
         body += amount;
      
-        if ( body == 10)
+        if ( body == 100)
         {
             
             bossRoomObject.SetActive(true); 
