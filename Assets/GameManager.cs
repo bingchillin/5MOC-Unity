@@ -100,11 +100,15 @@ public class GameManager : MonoBehaviour
             healthText.text = "HEALTH: " + health; 
 
         if (powerTimeText != null)
+            powerTimeText.text = "POWER: " + powerTime; 
             powerTimeText.text = "P: " + powerTime; 
 
         if (keyText != null)
             keyText.text = "KEY: " + key; 
 
+        if (powerTime <= healthSave / 10 && usePower == false){
+            powerTime += (int)Time.deltaTime;
+        }
         
        
     }
