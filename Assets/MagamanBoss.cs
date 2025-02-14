@@ -8,7 +8,7 @@ public class MagamanBoss : MonoBehaviour
     public float speed = 5f;        // Vitesse de déplacement du monstre
     public int damage = 4;       // Dégâts infligés au joueur
     private bool isParalyzed = false; // Indique si le monstre est paralysé
-    private bool isActive = false; // Indique si le monstre est actif
+    public bool isActive = false; // Indique si le monstre est actif
 
     private Rigidbody2D rb;
 
@@ -43,11 +43,10 @@ public class MagamanBoss : MonoBehaviour
             StartCoroutine(Paralyze());
         }
 
-        if (collision.gameObject.CompareTag("Player")){
+        if (collision.gameObject.CompareTag("Player"))
+        {
             GameManagerMegaman.Instance.UpdateHealth(damage*-1);
         }
-
-        
     }
 
     IEnumerator Paralyze()

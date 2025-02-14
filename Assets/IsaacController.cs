@@ -83,7 +83,7 @@ public class IsaacController : MonoBehaviour
     
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Wall")) // Assure-toi que tes murs ont bien le tag "Wall"
+        if (collision.gameObject.CompareTag("Wall"))
         {
             Debug.Log("Collision avec un mur !");
         }

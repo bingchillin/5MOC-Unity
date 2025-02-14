@@ -6,6 +6,7 @@ public class Megaman : MonoBehaviour
 {
     // vitesse de déplacement
     public float speed = 100f; // normalement 5;
+    public GameObject bulletPrefab;
 
     [Header("ANIMATION")]
     public float spriteChangeDelay = 0.1f;
@@ -22,6 +23,10 @@ public class Megaman : MonoBehaviour
 
     private Vector2 lastDirection;
     private Vector3 originalScale; 
+
+
+    public float shootInterval = 0.5f;
+    public float lastShoot = 0f;
 
     void Start()
     {
@@ -47,6 +52,13 @@ public class Megaman : MonoBehaviour
                 _spriteIndex = (_spriteIndex + 1) % currentSprites.Length;
                 sprite.sprite = currentSprites[_spriteIndex];
             }
+        }
+
+        lastShoot += Time.deltaTime;
+        if(Input.GetButtonDown("Fire1") && lastShoot >= shootInterval)
+        {
+            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            lastShoot = 0f;
         }
     }
 

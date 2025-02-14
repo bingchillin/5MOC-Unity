@@ -12,7 +12,7 @@ public class BossTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             boss.ActivateBoss();
-            //door.position.x = door.position.x;
+            GameManagerMegaman.Instance.StartTime();
         }
     }
     // Start is called before the first frame update
