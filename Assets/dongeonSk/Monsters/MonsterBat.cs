@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class MonsterBat : MonoBehaviour
 {
     [Header("Animation")]
@@ -15,38 +14,40 @@ public class MonsterBat : MonoBehaviour
     private float timer;
 
     [Header("Vie du Monstre")]
-    public int health = 50; 
+    public int health = 50;
+    private int maxHealth;
+    private Color originalColor; // Couleur d'origine du monstre
 
-    private float solidDamageTimer = 0f;      
-    private float passThroughDamageTimer = 0f; 
+    private float solidDamageTimer = 0f;
+    private float passThroughDamageTimer = 0f;
 
     [Header("Déplacement")]
-    public float detectionRadius = 5f;  
-    public float speed = 3f;           
+    public float detectionRadius = 5f;
+    public float speed = 3f;
 
-    private Transform target; 
-    private bool isChasing = false; 
-    private bool isWaiting = false; 
+    private Transform target;
+    private bool isChasing = false;
+    private bool isWaiting = false;
 
     private void Start()
     {
-        // Définir une vie aléatoire entre 50 et 300
-        health = Random.Range(50, 300); 
+        maxHealth = health; // Stocke la vie maximale
 
         spriteRenderer = GetComponent<SpriteRenderer>();
+        originalColor = spriteRenderer.color; // Stocke la couleur d'origine
 
         if (frames.Length > 0)
         {
-            spriteRenderer.sprite = frames[0]; 
+            spriteRenderer.sprite = frames[0];
         }
     }
 
     private void Update()
     {
-       
+        // Animation du monstre (léger flottement vertical)
         transform.position += new Vector3(0, Mathf.Sin(Time.time * 10) * 0.0001f, 0);
 
-        
+        // Gestion des animations par frame
         if (frames.Length == 0) return;
 
         timer += Time.deltaTime;
@@ -65,30 +66,33 @@ public class MonsterBat : MonoBehaviour
             spriteRenderer.sprite = frames[currentFrame];
         }
 
-      
+
+        // Mise à jour de la couleur en fonction des PV
+        float healthPercentage = (float)health / maxHealth;
+        spriteRenderer.color = Color.Lerp(Color.red, originalColor, healthPercentage);
+
+
         if (isChasing && target != null && !isWaiting)
         {
             MoveTowardsTarget();
         }
     }
 
-    // Détecte si un joueur est proche et doit être poursuivi
     private void FixedUpdate()
     {
-        if (!isWaiting) // Si le monstre pas en pause
+        if (!isWaiting) 
         {
             FindTarget();
         }
     }
 
-    // Recherche une cible valide dans le rayon d'activation
     private void FindTarget()
     {
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, detectionRadius);
 
         foreach (Collider2D collider in colliders)
         {
-            if (collider.CompareTag("Solid")) // Seul Solid est détecté
+            if (collider.CompareTag("Solid"))
             {
                 target = collider.transform;
                 isChasing = true;
@@ -96,12 +100,10 @@ public class MonsterBat : MonoBehaviour
             }
         }
 
-        
         isChasing = false;
         target = null;
     }
 
-    
     private void MoveTowardsTarget()
     {
         if (target != null)
@@ -110,7 +112,6 @@ public class MonsterBat : MonoBehaviour
         }
     }
 
-    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Solid"))
@@ -120,13 +121,12 @@ public class MonsterBat : MonoBehaviour
         }
     }
 
-   
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Solid"))
         {
             solidDamageTimer += Time.deltaTime;
-            if (solidDamageTimer >= 0.2f) 
+            if (solidDamageTimer >= 0.2f)
             {
                 GameManagerSk.Instance.UpdateHealth(-10);
                 Debug.Log("Le joueur SOLIDE perd 10 PV !");
@@ -148,7 +148,7 @@ public class MonsterBat : MonoBehaviour
         if (collider.CompareTag("Solid"))
         {
             solidDamageTimer += Time.deltaTime;
-            if (solidDamageTimer >= 0.2f) 
+            if (solidDamageTimer >= 0.2f)
             {
                 GameManagerSk.Instance.UpdateHealth(-10);
                 Debug.Log("Le joueur SOLIDE perd 10 PV !");
@@ -158,7 +158,7 @@ public class MonsterBat : MonoBehaviour
         else if (collider.CompareTag("PassThrough"))
         {
             passThroughDamageTimer += Time.deltaTime;
-            if (passThroughDamageTimer >= 0.3f) 
+            if (passThroughDamageTimer >= 0.3f)
             {
                 health -= 20;
                 Debug.Log("Le monstre perd 20 PV toutes les 0.3s en contact avec un joueur PASS THROUGH.");
@@ -166,7 +166,7 @@ public class MonsterBat : MonoBehaviour
                 if (health <= 0)
                 {
                     Destroy(gameObject);
-                    GameManagerSk.Instance.UpdateHealthSaveAdd(10);
+                    GameManagerSk.Instance.UpdateHealthSaveAdd(15);
                     Debug.Log("Le monstre est détruit !");
                 }
 
@@ -194,7 +194,6 @@ public class MonsterBat : MonoBehaviour
         isWaiting = false;
     }
 
-   
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

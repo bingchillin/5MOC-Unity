@@ -4,46 +4,23 @@ using UnityEngine;
 
 public class Pv : MonoBehaviour
 {
-    public int points = 10;
-    private Transform playerTransform; // position du joueur
-    public float pickupRadius = 1.5f; // Distance pour ramasser la gemme
-
-    private void Start()
-    {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            playerTransform = player.transform;
-        }
-        else 
-        {
-            player = GameObject.FindGameObjectWithTag("Solid");
-            if (player != null){
-                playerTransform = player.transform;
-            }else{
-                player = GameObject.FindGameObjectWithTag("PassThrough");
-                if (player != null )
-                {
-                    playerTransform = player.transform;
-                }else {
-                    Debug.LogError("Aucun joueur trouvé avec le tag 'Player' !");
-                }
-            }
-            
-        }
-    }
+    public int points = 10;  // Nombre de points à ajouter à la vie
+    public float pickupRadius = 1.5f;  
 
     private void Update()
     {
-        if (playerTransform != null)
+      
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, pickupRadius);
+
+        foreach (var collider in colliders)
         {
-            
-            float distance = Vector2.Distance(playerTransform.position, transform.position);
-            
-            if (distance <= pickupRadius)
+
+            if (collider.attachedRigidbody != null)
             {
-                GameManagerSk.Instance.UpdateHealth(points);
-                Destroy(gameObject);
+                
+                GameManagerSk.Instance.UpdateHealth(points);  
+                Destroy(gameObject); 
+                break;  
             }
         }
     }

@@ -82,6 +82,16 @@ public class GameManagerSk : MonoBehaviour
         
     }
 
+    public void UpdateHealthLost(int amount)
+    {
+       
+        if(health-amount <= 0){
+            health = 0;
+        }else {
+            health -= amount;
+        }
+        
+    }
     public void UpdateHealthSave(int amount)
     {
         healthSave = amount;

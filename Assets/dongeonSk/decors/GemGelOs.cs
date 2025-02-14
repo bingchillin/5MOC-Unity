@@ -5,45 +5,22 @@ using UnityEngine;
 public class GemGelOs : MonoBehaviour
 {
     public int points = 10;
-    private Transform playerTransform; // position du joueur
     public float pickupRadius = 1.5f; // Distance pour ramasser la gemme
-
-    private void Start()
-    {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            playerTransform = player.transform;
-        }
-        else 
-        {
-            player = GameObject.FindGameObjectWithTag("Solid");
-            if (player != null){
-                playerTransform = player.transform;
-            }else{
-                player = GameObject.FindGameObjectWithTag("PassThrough");
-                if (player != null )
-                {
-                    playerTransform = player.transform;
-                }else {
-                    Debug.LogError("Aucun joueur trouvé avec le tag 'Player' !");
-                }
-            }
-            
-        }
-    }
 
     private void Update()
     {
-        if (playerTransform != null)
+        // On récupère tous les colliders dans la zone de la gemme
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, pickupRadius);
+
+        foreach (var collider in colliders)
         {
-            
-            float distance = Vector2.Distance(playerTransform.position, transform.position);
-            
-            if (distance <= pickupRadius)
+            // Vérifie si l'objet en collision a un Rigidbody2D, ce qui signifie qu'il peut être un joueur ou un objet interactif
+            if (collider.attachedRigidbody != null)
             {
+                // Si l'objet possède un Rigidbody2D, il peut ramasser la gemme
                 GameManagerSk.Instance.UpdateBody(points);
-                Destroy(gameObject);
+                Destroy(gameObject); // Détruire la gemme après avoir été ramassée
+                break;  // Sortir de la boucle après avoir ramassé la gemme
             }
         }
     }
