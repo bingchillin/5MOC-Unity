@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 9df6b37da7ade469b950311dec09d22d
+  - enabled: 1
+    path: Assets/Scenes/MegaDungeon.unity
+    guid: b0343aec2242744cbb10c06ad4a3e406
+  - enabled: 1
+    path: Assets/Scenes/eh jsp frr.unity
+    guid: f4985d7de025f62489cfaa6ece57972b
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f0559176fb81741aa99ed66a1fbb6801, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1ab8ab57d469249678fe77f14925dc3e, type: 2}

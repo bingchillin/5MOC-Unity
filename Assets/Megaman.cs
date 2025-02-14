@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class defaultPlayer : MonoBehaviour
+public class Megaman : MonoBehaviour
 {
     // vitesse de déplacement
     public float speed = 100f; // normalement 5;
@@ -13,8 +12,6 @@ public class defaultPlayer : MonoBehaviour
 
     [Header("Sprites Default")]
     public Sprite[] spritesNormalWalkHorizontal;
-    public Sprite[] spritesNormalWalkUp;
-    public Sprite[] spritesNormalWalkDown;
 
     private Sprite[] currentSprites;
     private int _spriteIndex = 0;
@@ -68,12 +65,12 @@ public class defaultPlayer : MonoBehaviour
         }
         else if (moveInputY > 0)
         {
-            currentSprites = spritesNormalWalkUp;
+            currentSprites = spritesNormalWalkHorizontal;
             sprite.flipX = false;
         }
         else if (moveInputY < 0)
         {
-            currentSprites = spritesNormalWalkDown;
+            currentSprites = spritesNormalWalkHorizontal;
             sprite.flipX = false;
         }
     }
