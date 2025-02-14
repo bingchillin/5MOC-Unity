@@ -62161,7 +62161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ca896f2c40904ca48f76bab9081d3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: 0
+  body: 90
   healthSave: 100
   health: 100
   powerTime: 0

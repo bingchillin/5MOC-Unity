@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GemGelOs : MonoBehaviour
 {
-    public int points = 10;
+    public int points = 100;
     public float pickupRadius = 1.5f; // Distance pour ramasser la gemme
 
     private void Update()
